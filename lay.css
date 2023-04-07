@@ -1,0 +1,208 @@
+/**
+    * COLORS
+    */
+.duolingo {
+display:flex;
+justify-content:center;
+   background:rgba(0,120,122,0.5);
+   background-blend-mode:blur;
+}
+
+.spotify {
+    background-color: black;
+}
+
+.firefox,
+.microsoft {
+    background-color: #011440;
+}
+
+.java {
+    background-color: #F0F0F0;
+}
+
+.vs {
+    background-color: #3E3E3E;
+}
+
+.telegram {
+    background-color: #2DA1D3;
+}
+
+.vue {
+    background-color: #f2f2f2;
+}
+
+.lenovo {
+    background-color: rgb(226, 35, 25);;
+}
+
+.maps {
+    background-color: #F8F8F8;
+}
+
+.visa {
+    background-color: #0D4595;
+}
+
+.evernote {
+    background-color: #59A043;
+}
+
+.tiktok {
+    background-color: #000000;
+}
+
+.messenger {
+    background-color: #0583FC;
+}
+
+/**
+    * ALL
+    */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue',sans-serif;
+}
+
+landing {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+article {
+    font-size: calc(0.5vw + 0.4em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/**
+    * EXTRA SMALL
+    ***************************************************************************************************************
+    */
+.rectangle {
+    grid-column: span 2;
+    height: calc(40vw);
+}
+
+.vrectangle {
+    height: calc(80vw);
+    grid-row: span 2;
+}
+
+.cube {
+    height: calc(40vw);
+}
+
+.cube_x2 {
+    grid-row: span 2;
+    grid-column: span 2;
+    height: calc(80vw);
+}
+
+.img-duolingo,
+.img-spotify {
+    width: 40%;
+    height: 40%;
+}
+
+.img-stackoverflow,
+.img-google,
+.img-firefox,
+.img-excel,
+.img-vs,
+.img-telegram,
+.img-vue,
+.img-evernote {
+    width: 60%;
+    height: 60%;
+}
+
+.img-microsoft,
+.img-java,
+.img-lenovo,
+.img-maps {
+    width: 80%;
+    height: 80%;
+}
+
+.img-visa {
+    width: 95%;
+    height: 75%;
+}
+
+.img-tiktok,
+.img-messenger {
+    width: 80%;
+    height: 80%;
+}
+
+h2.title-duolingo,
+h2.title-spotify {
+    font-family: 'Baloo Thambi 2', cursive;
+    color: white;
+    padding: 8px 0;
+    font-size: calc(1vw + 1.5em);
+}
+
+/**
+    * SMALL
+    ***************************************************************************************************************
+    */
+@media (min-width: 576px) {
+    /**
+        * code not implement
+        */
+}
+
+/**
+    * MEDIUN
+    ***************************************************************************************************************
+    */
+@media (min-width: 768px) {
+    landing {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .rectangle,
+    .cube {
+        height: calc(20vw);
+    }
+
+    .vrectangle,
+    .cube_x2 {
+        height: calc(40vw);
+    }
+}
+
+/**
+    * LARGE
+    ***************************************************************************************************************
+    */
+@media (min-width: 992px) {
+    /**
+        * code not implement
+        */
+}
+
+/**
+    * EXTRA LARGE
+    ***************************************************************************************************************
+    */
+@media (min-width: 1200px) {
+    /**
+        * code not implement
+        */
+}
